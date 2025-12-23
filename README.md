@@ -52,48 +52,6 @@ The algorithm recursively explores all possible game outcomes and selects the mo
 
 ---
 
-## Project Structure
-
-Tic-Tac-Toe-Mobile-App/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/tictactoe/
-│   │   │   │
-│   │   │   │── ui/
-│   │   │   │   ├── MainActivity.kt        # App entry point
-│   │   │   │   └── TicTacToeScreen.kt     # Compose UI screen
-│   │   │   │
-│   │   │   │── viewmodel/
-│   │   │   │   └── TicTacToeViewModel.kt  # Game state & logic controller
-│   │   │   │
-│   │   │   │── game/
-│   │   │   │   ├── MinimaxAI.kt           # Minimax algorithm implementation
-│   │   │   │   └── GameUtils.kt           # Win checks, board utilities
-│   │   │   │
-│   │   │   ├── res/
-│   │   │   │   ├── values/
-│   │   │   │   │   ├── themes.xml
-│   │   │   │   │   └── colors.xml
-│   │   │   │   └── mipmap/                # App icons
-│   │   │   │
-│   │   │   └── AndroidManifest.xml
-│   │   │
-│   │   └── test/                          # Unit tests
-│   │
-│   ├── build.gradle.kts
-│   └── proguard-rules.pro
-│
-├── gradle/
-├── gradlew
-├── gradlew.bat
-├── settings.gradle.kts
-├── build.gradle.kts
-├── .gitignore
-└── README.md
-
-
-
 
 The UI, ViewModel, and Minimax game logic are intentionally kept in a single file to keep the project simple and easy to understand.
 
