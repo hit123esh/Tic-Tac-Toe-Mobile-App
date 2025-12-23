@@ -56,7 +56,8 @@ The algorithm recursively explores all possible game outcomes and selects the mo
 
 app/
 └── src/main/java/com/example/tictactoe/
-└── MainActivity.kt
+    └── MainActivity.kt
+
 
 
 The UI, ViewModel, and Minimax game logic are intentionally kept in a single file to keep the project simple and easy to understand.
